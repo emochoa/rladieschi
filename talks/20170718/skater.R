@@ -67,7 +67,7 @@ groups12 <- clusters12$groups
 table(groups12)
 
 # Fun with colors!  https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/colorPaletteCheatsheet.pdf
-plot(chicago,col=c('green yellow','orangered','dark gray','cyan','gold','pink','deep pink','dark turquoise','purple 3','spring green 3','royal blue 2','dark orchid 4')[clusters12$groups])
+plot(chicago,col=c('green yellow','orangered','dark gray','cyan','gold','pink','deep pink','dark cyan','purple 3','spring green 3','royal blue 2','dark orchid 4')[clusters12$groups])
 
 
 
